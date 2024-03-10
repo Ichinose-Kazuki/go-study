@@ -26,3 +26,4 @@ go mod でパッケージ化した。
     }
     ```
     fmt パッケージの print 系関数で、どんなふうに print してほしいかが指定できる。
+    fmt/print.go の `handleMethods` メソッドの中
