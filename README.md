@@ -1,12 +1,14 @@
 # go-study
 Go の勉強
 
+go mod でパッケージ化した。
+`go install github.com/Ichinose-Kazuki/go-study@latest`でインストールできる。[インストール先は `$HOME/go/bin/` など](https://go.dev/ref/mod#go-install)。
+`go build` でバイナリ `go-study` が出てくる。
+
+promptui パッケージにより、実行する関数を選択できる。
+
 ## hello
 ただの hello world。
-
-go mod でパッケージ化した。
-`go install <main パッケージがある GitHub レポジトリへのパス>`でインストールできる。
-`go build` でバイナリ `go-study` が出てくる。
 
 ## interface
 (intf ディレクトリ)
