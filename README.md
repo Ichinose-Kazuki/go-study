@@ -1,13 +1,12 @@
 # go-study
 Go の勉強
 
-## go mod
-パッケージ化した。
-`go install <main パッケージがある GitHub レポジトリへのパス>`でインストールできる。
-`go build` でバイナリ `go-study` が出てくる。
-
 ## hello
 ただの hello world。
+
+go mod でパッケージ化した。
+`go install <main パッケージがある GitHub レポジトリへのパス>`でインストールできる。
+`go build` でバイナリ `go-study` が出てくる。
 
 ## interface
 (intf ディレクトリ)
