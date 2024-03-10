@@ -4,6 +4,7 @@ import (
     "os"
     "github.com/Ichinose-Kazuki/go-study/hello"
     "github.com/Ichinose-Kazuki/go-study/intf"
+    "github.com/Ichinose-Kazuki/go-study/generics"
 )
 
 func main() {
@@ -17,5 +18,7 @@ func main() {
         hello.HelloMain()
     case "interface":
         intf.InterfaceMain()
+    case "generics":
+        generics.GenericsMain()
     }
 }
