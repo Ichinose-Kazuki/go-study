@@ -24,8 +24,6 @@ prompt := promptui.Select{
         return
     }
 
-    fmt.Printf("You choose %q:\n\n", mode)
-
     switch mode {
     case "hello":
         hello.HelloMain()

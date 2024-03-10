@@ -2,7 +2,7 @@
 Go の勉強
 
 go mod でパッケージ化した。
-`go install github.com/Ichinose-Kazuki/go-study@latest`でインストールできる。[インストール先は `$HOME/go/bin/` など](https://go.dev/ref/mod#go-install)。
+`go install github.com/Ichinose-Kazuki/go-study@latest`でインストールできる。[インストール先は `$HOME/go/bin/` など](https://go.dev/ref/mod#go-install)。最新版がインストールされない場合は、 `go clean -modcache` をしてからインストールする。
 `go build` でバイナリ `go-study` が出てくる。
 
 promptui パッケージにより、実行する関数を選択できる。
